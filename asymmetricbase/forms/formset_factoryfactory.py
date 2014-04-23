@@ -21,8 +21,6 @@ from copy import deepcopy
 from django.forms.formsets import formset_factory, BaseFormSet
 from django.forms.models import BaseModelFormSet, BaseInlineFormSet
 
-from asymmetricbase.logging import logger # @UnusedImport
-
 from . import ModelForm, make_modelformset_factory, make_inlineformset_factory
 from .form_factory import FormFactory
 

@@ -21,8 +21,7 @@ from copy import deepcopy
 
 from django.http import QueryDict
 
-from asymmetricbase.logging import logger # @UnusedImport
-from asymmetricbase import forms
+from . import base as forms
 
 class FormFactory(object):
 	"""
