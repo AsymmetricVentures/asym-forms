@@ -21,7 +21,7 @@ from copy import deepcopy
 
 from django.http import QueryDict
 
-from . import base as forms
+from . import forms
 
 class FormFactory(object):
 	"""
